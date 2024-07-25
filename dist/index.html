@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="flex justify-center items-center h-screen">
+    <div class="bg-neutral-500 rounded-lg px-4 py-2">
+        <div class="flex items-center mx-2 mt-4 mb-6">
+            <div id="container" class="w-[12.5rem] mr-2 h-12 bg-neutral-200 rounded-md flex items-center pl-2"></div>
+            <button id="Delete" class="bg-red-600 px-6 py-3 rounded-md text-neutral-200 hover:bg-red-500">Delete</button>
+        </div>
+        <div class="grid grid-cols-4 gap-2 mx-2">
+            <div class="col-span-1 flex flex-col">
+                <button id="AC" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400">AC</button>
+                <button id="7" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">7</button>
+                <button id="4" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">4</button>
+                <button id="1" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">1</button>
+            </div>
+            <div class="col-span-1 flex flex-col">
+                <button id="changeSign" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400">+/-</button>
+                <button id="8" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">8</button>
+                <button id="5" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">5</button>
+                <button id="2" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">2</button>
+            </div>
+            <div class="col-span-1 flex flex-col">
+                <button id="%" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400 focus:bg-green-400">%</button>
+                <button id="9" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">9</button>
+                <button id="6" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">6</button>
+                <button id="3" class="bg-neutral-200 px-3 py-3 mb-2 rounded-md hover:bg-neutral-400">3</button>
+            </div>
+            <div class="col-span-1 flex flex-col">
+                <button id="+" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400 focus:bg-green-400">+</button>
+                <button id="-" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400 focus:bg-green-400">-</button>
+                <button id="/" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400 focus:bg-green-400">/</button>
+                <button id="*" class="bg-green-600 px-3 py-3 mb-2 rounded-md hover:bg-green-400 focus:bg-green-400">*</button>
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-2 mx-2">
+            <button id="0" class="bg-neutral-200 col-span-2 py-3 mb-2 rounded-md hover:bg-neutral-400">0</button>
+            <button id="." class="bg-neutral-200 col-span-1 py-3 mb-2 rounded-md hover:bg-neutral-400">.</button>
+            <button id="Enter" class="bg-yellow-500 col-span-1 py-3 mb-2 rounded-md hover:bg-yellow-400">=</button>   
+        </div>
+    </div>
+    <script src="/dist/script.js"></script>
+</body>
+</html>
